@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text is visible.
+  </div>
+  <script>
+    // Correct way to change innerHTML
+    document.getElementById("myDiv").innerHTML = "This text should replace the old text.";
+  </script>
+</body>
+</html>
